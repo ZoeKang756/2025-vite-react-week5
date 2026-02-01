@@ -1,0 +1,144 @@
+html,
+body {
+  height: 100%;
+  text-align: center;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+#topNavbar .navbar-nav .nav-link,
+footer .nav-item .nav-link {
+  color: #582a4e;
+  border-right: 1px solid #eadceb;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#topNavbar .navbar-nav .nav-link:first-child,
+footer .nav-item:first-child .nav-link {
+  border-left: 1px solid #eadceb;
+}
+
+#topNavbar .navbar-nav .nav-link.active,
+footer .nav-link.active {
+  color: #b99cba;
+}
+
+img.logo {
+  width: 100px;
+}
+
+#middle_menu li:first-child {
+  border-left: 1px solid #582a4e;
+}
+
+#middle_menu a,
+#middle_menu a:link {
+  color: #eddcee;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#middle_menu li {
+  list-style-type: none;
+  display: block;
+  width: 150px;
+  border-right: 1px solid #582a4e;
+  padding: 10px 15px;
+}
+
+#middle_menu li:hover,
+.btn.mybtn:hover {
+  background-color: #582a4e;
+  color: #eddcee;
+}
+
+.btn.mybtn {
+  background-color: #b99cba;
+  color: #eddcee;
+  border-radius: 0px;
+}
+
+.productlist.card,
+.productlist.card .card-body {
+  border-radius: 0px;
+  height: fit-content;
+}
+
+.bg-indigo-200 {
+  background-color: #c6d2ff;
+}
+.bg-indigo-300 {
+  background-color: #a3b3ff;
+}
+.bg-indigo-400 {
+  background-color: #7c86ff;
+}
+
+.bg-indigo-500 {
+  background-color: #615fff;
+}
+
+.bg-indigo-600 {
+  background-color: #4f39f6;
+}
+
+.bg-indigo-700 {
+  background-color: #432dd7;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.primary-image {
+  height: 400px;
+  width: 500px;
+}
+
+.images {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+
+.images-thumbnails {
+  height: 160px;
+  width: 160px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.images-thumbnails.bigger {
+  height: 400px;
+  width: 400px;
+}
+
+.images-thumbnail img {
+  object-fit: cover;
+  object-position: center;
+}
+
+#product_container img:hover{
+  opacity: 0.8;
+}
