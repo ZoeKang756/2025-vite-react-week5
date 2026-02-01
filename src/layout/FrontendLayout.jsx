@@ -1,6 +1,7 @@
 import { Outlet, Link, useSearchParams, useLocation } from "react-router";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import logo from "/images/1769653446695-1.jpg";
 
 const { VITE_API_PATH, VITE_BASE_URL } = import.meta.env;
 
@@ -44,7 +45,7 @@ function FrontendLayout() {
               </button>
               <Link className="navbar-brand" to="/">
                 <img
-                  src="/images/1769653446695-1.jpg"
+                  src={logo}
                   className="logo"
                   alt="inod 日本精品服飾"
                 />
